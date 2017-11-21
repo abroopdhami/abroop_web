@@ -1,11 +1,8 @@
-        /* CSS Starts */
-    
-        
-   /* Nav Bar */
+           /* Nav Bar */
         ul {
             
             list-style-type: none;
-            margin: 0;
+            margin: 0 ;
             padding: 0 ;
             position: fixed;
             top: 0;
@@ -46,6 +43,4 @@
             background-color: #C2C2C2;
     }
 
-img {
-    float: right
-}
+
