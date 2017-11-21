@@ -11,6 +11,7 @@
             top: 0;
             width: 100%;
             overflow: hidden;
+            
         
             background-color: #343434
             
@@ -35,8 +36,7 @@
         li a {
             display: flex;
             text-align:center;
-            color: white;
-            text-align: center ;
+            color: white;;
             padding: 15px 20px;
             text-decoration: none;
     }
@@ -45,12 +45,7 @@
         li a:hover {
             background-color: #C2C2C2;
     }
-   
 
-    img {
-    float: right;
-    
-<img class="left" id="queens" src="images/rip.jpg">
-    
-
-    
+img {
+    float: right
+}
