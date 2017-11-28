@@ -8,13 +8,11 @@
             list-style-type: none;
             margin: 0 ;
             padding: 0 ;
-            position: fixed;
+            position:static;
             top: 0;
             width: 100%;
             overflow: hidden;
-            
-        
-            background-color: #343434
+            background-color: #343434;
             
     }
         
@@ -37,7 +35,7 @@
         li a {
             display: flex;
             text-align:center;
-            color: white;;
+            color: white;
             padding: 15px 20px;
             text-decoration: none;
     }
@@ -47,4 +45,41 @@
             background-color: #C2C2C2;
     }
 
+.container {
+    background-color:#c2c2c2 ;
+    padding: 10px;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto
 
+}
+
+
+ .boxed {
+  border: 1px black ;
+  background-color: #00fffa;
+  height: 60px;
+  
+
+
+  text-shadow: 2px 2px ;
+      }
+  
+ .footer {
+    background-color: #00fffa;
+    box-shadow: 2px 2px 2px 2px;
+    
+ }
+ 
+ .img1 {
+ float: right
+ 
+ }
+ 
+.img2 {
+float: left;
+    }
+    
+.txt1 {
+
+}
