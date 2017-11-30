@@ -46,10 +46,9 @@
     background: url(images/dad.png);
     min-height: auto;
     background-size: cover;
-    filter: blur:5000px;
  }
    
-     .footer {
+.footer {
     background-color: #00fffa;
     box-shadow: 2px 2px 2px 2px;
     
@@ -113,12 +112,21 @@
 .button {
     cursor: pointer;
     transition: all 0.8s;
+    overflow: hidden;
     
 }
 
  .button:hover {
     background-color: #C2C2C2;
     color: white;
+    opacity: 0.5;
+    
+    
 
     
+}
+
+
+.aks {
+    visibility: hidden;
 }
