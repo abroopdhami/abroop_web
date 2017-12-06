@@ -1,0 +1,86 @@
+           /* Nav Bar */
+
+
+
+
+        ul {
+            
+            list-style-type: none;
+            margin: 0 ;
+            padding: 0 ;
+            position:static;
+            top: 0;
+            width: 100%;
+            overflow: hidden;
+            background-color: #343434;
+            
+    }
+        
+
+    /* Where one name goes after the other */
+        li {
+        float: left;
+    }
+    
+    /* Add a gray right border to all list items, except the last item (last-child) */
+        li {
+        border-right: 1px solid #bbb;
+    }
+        
+        li:last-child {
+        border-right: none;
+    }
+    
+    /* The Font  */
+        li a {
+            display: flex;
+            text-align:center;
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+    }
+
+    /* Hover */
+        li a:hover {
+            background-color: #C2C2C2;
+    }
+
+body {
+    font-family: Verdana, Geneva,Arial,Sans-Serif;
+}
+
+h1 {
+    font-size: 170%;
+    color: #cc6600;
+    border-bottom: thin dotted; 
+}
+
+h2 {
+    font-size: 130%;
+    color:#cc6600;
+    border-bottom: thin dotted; 
+}
+
+h1, h2 {
+    font-weight: normal
+}
+
+blockquote {
+    font-style: italic;
+}
+
+
+img {
+    border-style: solid;
+    width: thin;
+    color:#cc6600;
+}
+
+.container {
+    background-color:#c2c2c2 ;
+    padding: 2px;
+    width:1500px;
+    margin-left: auto;
+    margin-right: auto
+
+}
