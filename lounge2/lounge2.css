@@ -1,4 +1,4 @@
-           /* Nav Bar */
+ /* Nav Bar */
 
 
 
@@ -45,34 +45,40 @@
             background-color: #C2C2C2;
     }
 
-body {
-    font-family: Verdana, Geneva,Arial,Sans-Serif;
-}
 
 h1 {
-    font-size: 170%;
-    color: #cc6600;
-    border-bottom: thin dotted; 
+    size: 150%;
+    color: #007e7e;
 }
 
 h2 {
-    font-size: 130%;
-    color:#cc6600;
-    border-bottom: thin dotted; 
+    color: #007e7e;
+    size: 130%;
 }
 
-h1, h2 {
-    font-weight: normal
+body {
+    font-family: Verdana, Helvetica, Arial, Sans-Serif;
+
 }
 
-blockquote {
+p {
+    line-height: 1.6em;
+    
+}
+
+.guarantee {
+    background-color: #a7cece;
+    border: dotted 3px;
+    border-color: white;
+    font-family: Georgia, Times New Roman, Times, serif;
     font-style: italic;
+    color: #444444;
+    line-height: 1.9em;
+    padding: 25px;
+    padding-left: 80px;
+    margin-left: 30px;
+    background-image: url(images/star.gif);
+    background-repeat: no-repeat;
+    
+    
 }
-
-
-img {
-    border-style: solid;
-    width: thin;
-    color:#cc6600;
-}
-
