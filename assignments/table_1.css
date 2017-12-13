@@ -1,0 +1,19 @@
+table { 
+caption-side: bottom;
+border: 6px solid red; 
+}
+
+caption {
+    text-align: left;
+    font-style: italic;
+    color: teal;
+}
+
+td, th {
+    border: 4px;
+    border-style: inset;
+    border-color: red;
+    border-bottom-color: maroon;
+    border-collapse: collapse;
+    
+}

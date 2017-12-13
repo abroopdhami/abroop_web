@@ -1,0 +1,20 @@
+body {
+    background-color: #333333;
+    background-image: url(images/stripe.png);
+    background-repeat: repeat-y;
+    color: #ffffff;
+    margin: 0px;
+    margin-left: 100px;
+    padding: 0px;
+    font: 0.75em "Luciana Grande" "Lucida Sans Unicode" "Lucida Sans" "Verdana, Tahoma, sans-serif" ;
+}
+
+h1 {
+    background-color: #999999;
+    color: #000;
+}
+
+ol {
+    background-color: #999;
+    color: #000
+}

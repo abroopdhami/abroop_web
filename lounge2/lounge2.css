@@ -69,6 +69,7 @@ p {
 .guarantee {
     background-color: #a7cece;
     border: dotted 3px;
+    
     border-color: white;
     font-family: Georgia, Times New Roman, Times, serif;
     font-style: italic;
@@ -82,3 +83,16 @@ p {
     
     
 }
+
+.elixir:hover {
+    background-color: aquamarine;
+    active: #000000;
+    
+}
+
+.elixir {
+    color: #007e7e;
+    active: #333333;
+}
+
+
