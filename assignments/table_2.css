@@ -9,3 +9,27 @@ table {
     border: 1px solid #d6dde6;
     border-collapse: collapse;
 }
+
+td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d6dde6;
+    text-align: right;
+    padding: 0.2em;
+}
+
+th {
+ border: 1px solid #828282;
+ background-color: #bcbcbc;
+ text-align: left;
+ padding: 0.4em;
+}
+
+caption {
+font-size: 125%;
+font-weight: bold;
+background-color: #b0c4de;
+color: #000000;
+padding: 0.5em 0 0.5em 0;
+border: 1px solid #789ac6;
+}
