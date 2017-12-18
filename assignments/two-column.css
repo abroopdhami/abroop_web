@@ -1,0 +1,20 @@
+body {
+    margin: auto;
+}
+.col1 {
+    font-family:sans-serif;
+    float: left;
+    width: 400px;
+    margin: 15px;
+}
+
+.col2 {
+    font-family:sans-serif;
+    float: left;
+    width: 400px;
+    margin: 15px;
+}
+
+h1, h2 {
+    font-family: serif;
+}

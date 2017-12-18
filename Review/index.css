@@ -86,6 +86,22 @@ border-width: 2px;
 border-style: double;
     }
     
-.txt1 {
+table{
+	border: 1px solid #d6dde6;
+	border-collapse: collapse;
+	width: 100%;
+	}
 
-}
+td {
+	border:2px dashed #000000;
+	border-top:0px;
+	padding: 0.5em;
+	}
+
+th {
+	border:2px dotted #000;
+	background-color: #00fffa;
+	color: #000;
+	text-align: left;
+	padding: 10px;
+	}
