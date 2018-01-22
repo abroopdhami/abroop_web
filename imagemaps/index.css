@@ -1,0 +1,22 @@
+body {
+    overflow: hidden;
+    background-color: #440808;
+}
+.container {
+    background-color: #440808;
+    width: 1310px;
+    padding:auto;
+    margin:auto;
+    text-align:center
+}
+
+.color {
+    background-color: #440808;
+}
+
+iframe {
+    width:700px;
+    height: 658px;
+    float:right;
+    overflow: hidden;
+}

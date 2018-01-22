@@ -1,0 +1,140 @@
+        /* CSS Starts */
+    
+   /* Nav Bar */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0 ;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            overflow: hidden;
+            background-color: #343434
+            
+    }
+        
+
+    /* Where one name goes after the other */
+        li {
+        float: left;
+    }
+    
+    /* Add a gray right border to all list items, except the last item (last-child) */
+        li {
+        border-right: 1px solid #bbb;
+    }
+        
+        li:last-child {
+        border-right: none;
+    }
+    
+    /* The Font  */
+        li a {
+            display: flex;
+            text-align:center;
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+    }
+
+    /* Hover */
+        li a:hover {
+            background-color: #C2C2C2;
+    }
+   
+    body {
+    min-height: auto;
+    background-size: cover;
+ }
+   
+.footer {
+    background-color: #00fffa;
+    box-shadow: 2px 2px 2px 2px;
+    
+ }
+ 
+
+.text {
+    text-align:center
+    !important
+    
+}
+
+.padding {
+    padding:12px 24px
+    !important
+}
+    
+.middle {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    }
+
+.border
+{border:3px solid #ccc
+!important
+    }
+    
+.wide {
+    letter-spacing:4px
+    }
+
+.text-grey{
+    color:#f1f1f1
+    !important
+    }
+    
+.center {
+    text-align:center
+    !important
+}
+
+
+.xxxlarge {
+    font-size:48px
+    !important
+}
+
+.hide-large {
+    display:none
+    !important
+}
+
+.image {
+    max-width:100%;
+    height:auto;
+    }
+
+.button {
+    cursor: pointer;
+    transition: all 0.8s;
+    overflow: hidden;
+    
+}
+
+ .button:hover {
+    background-color: #FFF;
+    color: #C800000 !important;
+     
+     }
+
+.aks {
+    visibility: hidden;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    -webkit-filter: brightness(.5);
+    filter: brightness(.5);
+    -webkit-filter: contrast(1);
+    filter: contrast(1);
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}

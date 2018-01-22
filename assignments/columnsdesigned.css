@@ -1,0 +1,48 @@
+.container {
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h1 {
+    padding-left: 15px;
+    font-family: calibri, verdana, serif, sans-serif;
+    background-color: #609dff;
+}
+
+.twocol {
+
+    width: 500px;
+    float: left;
+
+}
+
+.twocoltwo {
+    width: 490px;
+    float: right;
+}
+
+.fourcol {
+    width: 150px;
+    class:left;
+
+}
+
+.fourcol2 {
+    width: 150px;
+    float: left;
+    float:left;
+
+}
+
+p {
+
+    
+}
+
+
+.border {
+    border-style: solid;
+    border-width: 1px;
+}
+

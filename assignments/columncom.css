@@ -1,0 +1,19 @@
+body {
+    width: 1000px;
+}
+
+.h1 {
+    float: left;
+    width: 450px;
+}
+
+.h2 {
+    float: left;
+    width: 400px;
+}
+
+.p {
+    float: left;
+    width: 200px;
+    margin: 15px;
+}
