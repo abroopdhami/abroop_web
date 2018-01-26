@@ -19,4 +19,5 @@ iframe {
     height: 658px;
     float:right;
     overflow: hidden;
+    border:hidden;
 }
